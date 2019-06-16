@@ -6,7 +6,7 @@
     width: 960px;
     font-size: 18px;
     color: #777;
-    
+    display: block;
  }
  
  header {
@@ -30,73 +30,55 @@
     float: left;
     margin-bottom: 20px;
     width: 495px;
-    height: 300px;
-    
+    height: 210px;
  }
 
- aside {
-   background: #ebebeb;
-   text-align: center;
-   float: right;
-   margin-bottom: 20px;
-   padding: 30px;
-   height: 300px;
-   width: 320px;
-   
-}
-
- .article {
-    background: #777;
-    margin: 20px;
-    text-align: center;
-    color: #ebebeb;
-    padding: 10px 50px;
- }
-
- #h1 {
-    background: #ebebeb;
-    color: #777;
-    padding: 10px;
-    text-align: center; 
-    text-emphasis: bold;
- }
- #p {
-    background: #ebebeb;
-    text-align: center;
-    color: #777;
-    padding: 10px;
- }
  
- /*.clearfix {
-   overflow: auto;
- }*/
-
- .footer {
-    background: #eee;
-    padding: 20px;
+ aside {
+    background: #ebebeb;
+    text-align: center;
+    float: right;
+    margin-bottom: 20px;
+    padding: 30px;
+    height: 210px;
+    width: 320px;
+   }
+   
+   .article {
+      background: #777;
+      margin: 5px;
+      text-align: center;
+      color: #ebebeb;
+      padding: 20px;
+   }
+   
+   #h1 {
+      background: #ebebeb;
+      color: #777;
+      text-align: center; 
+      border: 5px solid;
+   }
+   
+   #p {
+      background: #ebebeb;
+      text-align: center;
+      color: #777;
+      border: 5px solid;
+   }
+   
+   .clearfix::after {
+     display: block;
+     clear: both;
+   }
+   
+   .footer {
+    background: #ebebeb;
+    padding: 30px;
     text-align: center;
     clear: both;
-    /*overflow:auto;*/
-
+    overflow: auto;
  }
 
-/* Your CSS should have styles for each of the following elements:
- * Body
-   * font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-   * color: '#777'
-   * background: '#777'
-   * width: '960px'
-   * font-size: '18px'
- * Header, Nav, Section, Aside, and Footer
-   * background: '#ebebeb'
- * Article
-   * color: '#ebebeb',
-   * background: '#777'
- * h1 and p
-   * color: '#777',
-   * background: '#ebebeb'
-3. The width of the section should be:
- * section: 495px-->
 
 
  
