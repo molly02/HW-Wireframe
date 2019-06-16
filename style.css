@@ -6,16 +6,15 @@
     width: 960px;
     font-size: 18px;
     color: #777;
-
+    
  }
  
- .head {
+ header {
     background: #ebebeb;
     padding: 30px;
     text-align: center;
-    margin-bottom: 10px;
+    margin: 10px 0px;
 }
-    
    
  .nav {
     background: #ebebeb;
@@ -24,59 +23,61 @@
     margin-bottom: 20px;
  }
 
- #section {
+ .section {
     background: #ebebeb;
-    padding: 50px;
+    padding: 30px;
     text-align: center;
     float: left;
-    align: left;
-    margin-bottom: 10px;
-    height: 50px;
-    width: 60%;
+    margin-bottom: 20px;
+    width: 495px;
+    height: 300px;
     
  }
 
  aside {
-   align: right;
    background: #ebebeb;
    text-align: center;
    float: right;
-   margin-bottom: 10px;
-   padding: 100px;
-   height: 50px;
-   width: 
-
+   margin-bottom: 20px;
+   padding: 30px;
+   height: 300px;
+   width: 320px;
+   
 }
 
- article {
+ .article {
     background: #777;
-    margin: 10px
+    margin: 20px;
     text-align: center;
     color: #ebebeb;
+    padding: 10px 50px;
  }
 
- .h1 {
+ #h1 {
     background: #ebebeb;
-    padding: 20px;
+    color: #777;
+    padding: 10px;
     text-align: center; 
+    text-emphasis: bold;
  }
- .p {
+ #p {
     background: #ebebeb;
     text-align: center;
-    padding: 20px;
+    color: #777;
+    padding: 10px;
  }
-
- .clearfix::after {
-display: block;
-clear: both;
- }
+ 
+ /*.clearfix {
+   overflow: auto;
+ }*/
 
  .footer {
     background: #eee;
     padding: 20px;
     text-align: center;
     clear: both;
-   
+    /*overflow:auto;*/
+
  }
 
 /* Your CSS should have styles for each of the following elements:
